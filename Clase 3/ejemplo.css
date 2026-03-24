@@ -1,0 +1,47 @@
+h1 {font-weight: 600;
+background-color: yellow;}
+p {color: red;
+    font-family: aquamarine
+}
+ul {font-style: italic;
+color: brown;
+text-align: center;
+}
+
+li {text-align: center;}
+
+h2 {align-self: start;
+background-color: red;
+text-align: center;
+
+}
+
+#primero{
+
+    color:orange;
+
+
+}
+
+#segundo {
+    font-size: 25px;
+    line-height: 5;
+}
+
+
+#tercero{
+
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    margin-top: 56px;
+}
+
+#cuarto {
+background-color: aqua;
+height: 400px;
+width: 400px;
+padding: 100px;   
+border: dashed 3px ;
+box-sizing: border-box;
+}
