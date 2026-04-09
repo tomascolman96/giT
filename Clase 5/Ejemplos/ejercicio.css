@@ -1,0 +1,64 @@
+div {
+
+    width: 150px;
+    height: 150px;
+    
+}
+
+    .CajaRoja {
+        
+        background-color: red;
+    }
+
+    .CajaAzul{
+    
+        background-color:blue;
+
+    
+    }
+
+    .CajaVerde{
+
+        background-color:green;
+    }
+
+   /* Ejercicio 1: */
+   
+   /*.contenedorGeneral{
+
+
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        border: 2px solid black;
+        align-items: flex-end;
+    }*/
+        
+    
+
+     
+    /*Ejercicio 2*/
+
+    .contenedorGeneral{
+
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+       
+        height: 500px;
+       border: 2px solid black;
+
+    }
+
+
+   /* Ejercicio 3: 
+
+.contenedorGeneral{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 100%;
+border: 2px solid black;
+}*/
