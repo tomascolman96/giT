@@ -1,0 +1,55 @@
+.contenedorPrincipal {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    
+}
+
+.enlaces{
+    flex: 1;
+    background-color: red;
+    height: 400px;
+    text-align: center;
+    padding:20px;
+}
+
+
+.contenido{
+    flex: 3;
+    background-color: grey;
+    height: 400px;
+    text-align: center;
+    padding:20px;
+}
+
+.adicional{
+    flex: 1.5;
+    background-color: purple;
+    height: 400px;
+    text-align: center;
+    padding:20px;
+
+}
+
+@media (max-width: 800px) {
+    .contenedorPrincipal {
+        flex-direction: column; 
+    }
+
+  }
+
+  body{
+
+    margin: 0;
+   
+    line-height: 1.6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  header{
+    
+    text-align: center;
+  }
