@@ -1,0 +1,10 @@
+
+.novedad {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.novedad h4 {
+    color: #2e64a1;
+}

@@ -1,0 +1,27 @@
+
+.historia {
+    margin-bottom: 30px;
+}
+
+.staff {
+    padding: 20px 0;
+}
+
+.personas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.persona {
+    width: 30%; /* Para que entren varias personas en una fila */
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.persona2 {
+    width: 30%; /* Para que entren varias personas en una fila */
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
