@@ -1,0 +1,12 @@
+<h1>Transportes X</h1>
+
+{{#if nombre}}
+    <p>Hola {{nombre}}, bienvenido de nuevo!</p>
+    <a href="/salir">Salir</a>
+{{else}}
+    <p>No te conozco, ¿cómo te llamás?</p>
+    <form action="/ingresar" method="post">
+        <input type="text" name="nombre" required>
+        <button type="submit">Ingresar</button>
+    </form>
+{{/if}}
