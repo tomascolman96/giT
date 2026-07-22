@@ -12,6 +12,10 @@
   "type": "commonjs",
   "dependencies": {
     "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "hbs": "^4.2.1",
+    "md5": "^2.3.0",
     "mysql2": "^3.23.0",
     "util": "^0.12.5"
   }
