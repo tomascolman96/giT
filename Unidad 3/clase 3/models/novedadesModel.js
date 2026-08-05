@@ -45,4 +45,7 @@ async function modificarNovedadById(obj, id) {
   }
 }
 
-module.exports = { getNovedades, insertNovedad, deleteNovedadById, getNovedadById, modificarNovedadById };
+
+
+
+module.exports = { getNovedades, insertNovedad, deleteNovedadById, getNovedadById, modificarNovedadById};
