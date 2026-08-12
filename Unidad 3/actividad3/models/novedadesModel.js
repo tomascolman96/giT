@@ -6,8 +6,6 @@ async function getNovedades() {
   return rows;
 }
 
-
-
 async function insertNovedad(obj) {
   try {
     var query = "insert into novedades set ? ";
@@ -19,21 +17,17 @@ async function insertNovedad(obj) {
   }
 }
 
-
-
-async function deleteNovedadById(id) {
+async function deleteNovedadesById(id) { 
   var query = "delete from novedades where id = ?";
   var rows = await pool.query(query, [id]);
   return rows;
 }
-
 
 async function getNovedadById(id) {
   var query = "select * from novedades where id = ?";
   var rows = await pool.query(query, [id]);
   return rows[0];
 }
-
 
 async function modificarNovedadById(obj, id) {
   try {
@@ -45,7 +39,10 @@ async function modificarNovedadById(obj, id) {
   }
 }
 
-
-
-
-module.exports = { getNovedades, insertNovedad, deleteNovedadById, getNovedadById, modificarNovedadById};
+module.exports = { 
+  getNovedades, 
+  insertNovedad, 
+  deleteNovedadesById, 
+  getNovedadById, 
+  modificarNovedadById
+};
