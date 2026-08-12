@@ -1,1 +1,3 @@
 **/ejemplos_en_clase/
+node_modules/
+.env
